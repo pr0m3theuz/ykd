@@ -14,14 +14,14 @@ const projects = [
     title: "Program Importer",
     desc: "Desktop application for importing PKL files, validating exercises, and managing programs with hierarchical tree view. Built with Compose Multiplatform.",
     tags: ["Kotlin MP", "Compose Desktop", "Couchbase SDK"],
-    link: "https://github.com/pr0m3theuz/ykd-import-programs-kmp"
+    link: "https://github.com/pr0m3theuz/ykd_import_programs_kmp"
   },
   {
     icon: <Cloud size={32} />,
     title: "Sync Server",
     desc: "Docker-based backend with Couchbase Server and Sync Gateway. Multi-device synchronization, data backup, and local-first architecture support.",
     tags: ["Docker", "Couchbase", "Sync Gateway"],
-    link: "https://github.com/pr0m3theuz/workout-app-server"
+    link: "https://github.com/pr0m3theuz/ykd_workout_app_server"
   },
   {
     icon: <RefreshCw size={32} />,

@@ -24,20 +24,22 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">Product</h4>
             <ul className="space-y-3 font-mono text-sm text-neutral-400">
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Mobile App</a></li>
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Sync Server</a></li>
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Import Programs</a></li>
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Releases</a></li>
+              <li><a href="https://github.com/pr0m3theuz/workout-app" className="hover:text-lime-400 transition-colors">Mobile App</a></li>
+              <li><a href="https://github.com/pr0m3theuz/ykd_workout_app_server" className="hover:text-lime-400 transition-colors">Sync Server</a></li>
+              <li><a href="https://github.com/pr0m3theuz/ykd_import_programs_kmp" className="hover:text-lime-400 transition-colors">Import Programs</a></li>
+              <li><a href="https://github.com/pr0m3theuz/ykd_workout_program_pkl_generator" className="hover:text-lime-400 transition-colors">PKL Converter</a></li>
+              <li><a href="https://github.com/pr0m3theuz/workout-app/releases" className="hover:text-lime-400 transition-colors">Releases</a></li>
             </ul>
           </div>
 
           <div>
             <h4 className="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">Resources</h4>
             <ul className="space-y-3 font-mono text-sm text-neutral-400">
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Documentation</a></li>
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Contributing</a></li>
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Issues</a></li>
-              <li><a href="#" className="hover:text-lime-400 transition-colors">Discussions</a></li>
+              <li><a href="https://github.com/pr0m3theuz/workout-app" className="hover:text-lime-400 transition-colors">Documentation</a></li>
+              <li><a href="https://github.com/pr0m3theuz/workout-app?tab=readme-ov-file#-contributing" className="hover:text-lime-400 transition-colors">Contributing</a></li>
+              <li><a href="https://github.com/pr0m3theuz/workout-app/issues" className="hover:text-lime-400 transition-colors">Issues</a></li>
+              <li><a href="https://github.com/pr0m3theuz/workout-app/discussions" className="hover:text-lime-400 transition-colors">Discussions</a></li>
+              <li><a href="https://github.com/pr0m3theuz/workout-app/blob/ditto-sync/LICENSE" className="hover:text-lime-400 transition-colors">License</a></li>
             </ul>
           </div>
 
