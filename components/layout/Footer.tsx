@@ -57,7 +57,8 @@ const Footer: React.FC = () => {
         <div className="border-t border-neutral-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-neutral-600 text-xs font-mono uppercase">© 2026 YKD Workout Ecosystem. All rights reserved.</p>
           <p className="text-neutral-600 text-xs font-mono">
-            Local-First. Zero Bloat. No Subscriptions.
+            Get yoked. Stay consistent. Own your progress.
+            // Local-First. Zero Bloat. No Subscriptions.
           </p>
         </div>
       </div>

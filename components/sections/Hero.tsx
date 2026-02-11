@@ -70,7 +70,7 @@ const Hero: React.FC = () => {
                 Get <span className="text-transparent bg-clip-text bg-gradient-to-br from-lime-400 to-lime-600">Yoked.</span><br />
                 Own Your <br />
                 <span className="relative">
-                  Data.
+                  Progress.
                   <svg className="absolute -bottom-0.5 z-50 left-0 w-full h-20 text-lime-400" viewBox="0 0 800 200" preserveAspectRatio="none">
                     <path d="M 10 110 C 800 0 110 200 790 90" stroke="currentColor" strokeWidth="20" strokeLinecap="round" fill="none" />
                   </svg>

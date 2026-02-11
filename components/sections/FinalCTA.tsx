@@ -18,11 +18,12 @@ const FinalCTA: React.FC = () => {
 
        <div className="container mx-auto px-6 text-center relative z-10">
          <h2 className="font-display text-6xl md:text-8xl text-black uppercase mb-8 leading-[0.85]">
-           Start Tracking.<br />
-           Start Owning.
+          {/* Start Tracking.<br />
+          Start Owning. */} 
+          Ready to Take Control?
          </h2>
          <p className="font-mono text-black/70 text-lg md:text-xl mb-12 max-w-2xl mx-auto font-medium">
-           Download YKD and take control of your training. Free, open source, privacy-focused.
+           Download YKD and take control of your training.<br />Free, open source, privacy-focused.
          </p>
          
          <div className="flex flex-col md:flex-row gap-4 justify-center items-center">
