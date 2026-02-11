@@ -58,7 +58,7 @@ const Footer: React.FC = () => {
           <p className="text-neutral-600 text-xs font-mono uppercase">© 2026 YKD Workout Ecosystem. All rights reserved.</p>
           <p className="text-neutral-600 text-xs font-mono">
             Get yoked. Stay consistent. Own your progress.
-            // Local-First. Zero Bloat. No Subscriptions.
+            {/*Local-First. Zero Bloat. No Subscriptions.*/}
           </p>
         </div>
       </div>
