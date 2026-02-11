@@ -24,28 +24,7 @@ const AnalyticsShowcase: React.FC = () => {
                 
                 {/* SVG Muscle Map - Front & Back */}
                 <div className="flex gap-8 w-full h-full max-w-lg">
-                  {/* Front Body Abstract */}
-                  <svg viewBox="0 0 100 200" className="w-1/2 h-full drop-shadow-[0_0_15px_rgba(204,255,0,0.1)]">
-                    <path d="M50 10 L65 15 L70 30 L90 40 L85 80 L95 90 L85 100 L70 90 L70 140 L80 160 L75 190 L60 180 L50 195 L40 180 L25 190 L20 160 L30 140 L30 90 L15 100 L5 90 L15 80 L10 40 L30 30 L35 15 Z" 
-                          fill="#1E293B" stroke="#334155" strokeWidth="1" />
-                    {/* Pecs - Lime */}
-                    <path d="M50 40 L70 45 L70 60 L50 65 L30 60 L30 45 Z" fill="#CCFF00" opacity="0.9" className="animate-pulse-slow" />
-                    {/* Abs - Teal */}
-                    <path d="M40 70 L60 70 L58 120 L42 120 Z" fill="#2DD4BF" opacity="0.7" />
-                    {/* Quads - Purple */}
-                    <path d="M30 100 L45 100 L45 160 L30 150 Z" fill="#A855F7" opacity="0.6" />
-                    <path d="M70 100 L55 100 L55 160 L70 150 Z" fill="#A855F7" opacity="0.6" />
-                  </svg>
-                  
-                  {/* Back Body Abstract */}
-                  <svg viewBox="0 0 100 200" className="w-1/2 h-full drop-shadow-[0_0_15px_rgba(204,255,0,0.1)]">
-                    <path d="M50 10 L65 15 L70 30 L90 40 L85 80 L95 90 L85 100 L70 90 L70 140 L80 160 L75 190 L60 180 L50 195 L40 180 L25 190 L20 160 L30 140 L30 90 L15 100 L5 90 L15 80 L10 40 L30 30 L35 15 Z" 
-                          fill="#1E293B" stroke="#334155" strokeWidth="1" />
-                    {/* Traps/Back - Orange (from screenshot) */}
-                    <path d="M50 20 L75 35 L50 90 L25 35 Z" fill="#F97316" opacity="0.9" />
-                    {/* Lats - Teal */}
-                    <path d="M30 50 L50 90 L70 50 L80 80 L50 110 L20 80 Z" fill="#2DD4BF" opacity="0.5" />
-                  </svg>
+                  <img src='/sections/muscle_engagement.png' alt="Muscle Engagement"></img>
                 </div>
 
                 <div className="absolute bottom-4 left-4 font-mono text-xs text-neutral-500">
