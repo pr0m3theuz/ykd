@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YKD | Own Your Progress</title>
+    <meta name="description" content="Privacy-focused, local-first workout tracker." />
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@300;400;500;600;700&family=JetBrains+Mono:wght@300;400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CDN (for quick setup - replace with PostCSS in production) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              lime: {
+                400: '#CCFF00',
+                500: '#B3E600',
+              },
+              dark: {
+                900: '#050505',
+                800: '#0A0A0A',
+                700: '#121212',
+              }
+            },
+            fontFamily: {
+              display: ['Anton', 'sans-serif'],
+              tech: ['Archivo', 'sans-serif'],
+              mono: ['JetBrains Mono', 'monospace'],
+              sans: ['Inter', 'sans-serif'],
+            },
+            animation: {
+              'spin-slow': 'spin 20s linear infinite',
+              'marquee': 'marquee 25s linear infinite',
+              'pulse-slow': 'pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-100%)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    
+    <style>
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 8px;
+      }
+      ::-webkit-scrollbar-track {
+        background: #050505;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #333;
+        border-radius: 4px;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #CCFF00;
+      }
+      
+      /* Noise Overlay */
+      .bg-noise {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        pointer-events: none;
+        z-index: 50;
+        opacity: 0.03;
+        background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+      }
+    </style>
+  </head>
+  <body class="bg-dark-900 text-white selection:bg-lime-400 selection:text-black overflow-x-hidden">
+    <div id="app"></div>
+    <div class="bg-noise"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
