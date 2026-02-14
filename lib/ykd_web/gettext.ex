@@ -20,5 +20,5 @@ defmodule YkdWeb.Gettext do
 
   See the [Gettext Docs](https://hexdocs.pm/gettext) for detailed usage.
   """
-  use Gettext, otp_app: :ykd_web
+  # use Gettext, otp_app: :ykd_web
 end

@@ -1,5 +1,7 @@
 defmodule YkdWeb do
-  def static_paths, do: ~w(assets fonts images favicon.ico robots.txt)
+  def static_paths do
+    ~w(assets fonts images favicon.ico robots.txt)
+  end
 
   def router do
     quote do
