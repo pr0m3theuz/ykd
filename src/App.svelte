@@ -4,10 +4,10 @@
   import Footer from './lib/components/layout/Footer.svelte';
   import Hero from './lib/components/sections/Hero.svelte';
   import Marquee from './lib/components/sections/Marquee.svelte';
-  import Features from './lib/components/sections/Features.svelte';
-  import PowerFeatures from './lib/components/sections/PowerFeatures.svelte';
+  import Features from './lib/components/sections/Features-fixed.svelte';
+  import PowerFeatures from './lib/components/sections/PowerFeatures-fixed.svelte';
   import Ecosystem from './lib/components/sections/Ecosystem.svelte';
-  import Privacy from './lib/components/sections/Privacy.svelte';
+  import Privacy from './lib/components/sections/Privacy-fixed.svelte';
   import AnalyticsShowcase from './lib/components/sections/AnalyticsShowcase.svelte';
   import FinalCTA from './lib/components/sections/FinalCTA.svelte';
   import CustomCursor from './lib/components/ui/CustomCursor.svelte';

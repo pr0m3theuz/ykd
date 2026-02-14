@@ -48,7 +48,7 @@
         });
       },
       {
-        threshold: 0.1,
+        threshold: 1,
         rootMargin: '0px 0px -100px 0px'
       }
     );
@@ -75,10 +75,10 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-px bg-neutral-800 border border-neutral-800">
       {#each features as feature, index}
         <div 
-          class="feature-card group relative bg-dark-900 p-10 hover:bg-neutral-900 transition-all duration-500 overflow-hidden"
+          class="feature-card group relative bg-dark-900 p-10 hover:bg-neutral-900 transition-transform duration-300 overflow-hidden"
           class:animate-in={visibleItems[index]}
           data-index={index}
-          style="transition-delay: {index * 100}ms;"
+          style="transition-delay: {index * 200}ms;"
         >
           <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-lime-400 to-transparent transform -translate-x-full group-hover:translate-x-0 transition-transform duration-500"></div>
           
@@ -94,7 +94,7 @@
             {feature.desc}
           </p>
 
-          <div class="absolute bottom-4 right-4 text-neutral-800 font-display text-6xl opacity-20 select-none group-hover:opacity-40 transition-opacity">
+          <div class="absolute bottom-4 right-4 text-neutral-600 font-display text-6xl opacity-20 select-none group-hover:opacity-40 transition-opacity">
             0{index + 1}
           </div>
         </div>
@@ -105,18 +105,18 @@
 
 <style>
   .feature-card {
-    opacity: 0;
-    transform: translateY(20px);
+    animation-name: fadeInUp;
+    animation-timeline: view();
   }
 
   .feature-card.animate-in {
-    animation: fadeInUp 0.6s ease-out forwards;
+    animation: fadeInUp 0.6s ease-out;
   }
 
   @keyframes fadeInUp {
     from {
       opacity: 0;
-      transform: translateY(20px);
+      transform: translateY(40px);
     }
     to {
       opacity: 1;
