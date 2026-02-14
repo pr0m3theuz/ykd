@@ -2,7 +2,7 @@
   import { Download, Github } from 'lucide-svelte';
   import { fade, fly } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
-  import PhoneCarousel from './PhoneCarousel.svelte';
+  import PhoneCarousel from '../ui/PhoneCarousel.svelte';
 
   const features = [
     'LOCAL-FIRST STORAGE',
@@ -44,7 +44,7 @@
 
           <p class="text-xl text-neutral-400 font-light max-w-xl leading-relaxed mb-8 border-l-2 border-lime-400 pl-6">
             A privacy-focused, open source workout logging ecosystem. 
-            Zero subscriptions. Zero data mining. 100% gains.
+            Zero subscriptions. Zero data mining.<br />100% gains.
           </p>
 
           <ul class="flex flex-col gap-3 mb-10 ml-1">
@@ -87,7 +87,7 @@
 
       <!-- Visual Content - Carousel Mockup -->
       <div class="lg:col-span-5 relative h-[600px] flex items-center justify-center">
-        <PhoneCarousel />
+        <PhoneCarousel></PhoneCarousel>
       </div>
     </div>
   </div>

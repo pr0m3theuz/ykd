@@ -20,18 +20,15 @@
       
       <div class="order-2 lg:order-1 relative">
          <!-- Muscle Engagement Visualization -->
-         <div class="relative aspect-[4/3] bg-dark-900 rounded-lg border border-neutral-800 p-8 flex items-center justify-center group">
+         <div class="relative bg-dark-900 rounded-lg border border-neutral-800 p-8 flex items-center justify-center group">
             <div class="absolute inset-0 bg-lime-400/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
             
             <!-- SVG Muscle Map - Front & Back -->
             <div class="flex gap-8 w-full h-full max-w-lg">
-              <img src='/sections/muscle_engagement.png' alt="Muscle Engagement" />
+              <img src='../../../../static/sections/muscle_engagement.png' alt="Muscle Engagement" />
             </div>
 
-            <div class="absolute bottom-4 left-4 font-mono text-xs text-neutral-500">
-              <span class="inline-block w-2 h-2 bg-lime-400 mr-2 rounded-full"></span>
-              Hypertrophy Focus
-            </div>
+
          </div>
 
          <!-- Floating Stats Card -->

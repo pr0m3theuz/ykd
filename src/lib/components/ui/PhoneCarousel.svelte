@@ -2,26 +2,31 @@
   import { onMount, onDestroy } from 'svelte';
   import { fade, fly } from 'svelte/transition';
   import { quintOut } from 'svelte/easing';
+  import screenshot1 from '../../../../static/sections/screenshot1.png';
+  import screenshot2 from '../../../../static/sections/screenshot2.png';
+  import screenshot3 from '../../../../static/sections/screenshot3.png';
+  import screenshot4 from '../../../../static/sections/screenshot4.png';
+  import screenshot5 from '../../../../static/sections/screenshot5.png';
 
   const screenshots = [
     { 
-      src: '/sections/screenshot1.png',
+      src: screenshot1,
       callouts: ['📊 139 WORKOUTS', '💪 670+ TONS LIFTED', '🎯 MUSCLE HEATMAP']
     },
     { 
-      src: '/sections/screenshot2.png',
+      src: screenshot2,
       callouts: ['📈 TRACK CONSISTENCY', '📊 VOLUME TRENDS', '⚡ TRAINING FREQUENCY']
     },
     { 
-      src: '/sections/screenshot3.png',
+      src: screenshot3,
       callouts: ['🎯 MUSCLE ENGAGEMENT', '💪 21.5 SETS TRAPS', '📊 FULL BREAKDOWN']
     },
     { 
-      src: '/sections/screenshot4.png',
+      src: screenshot4,
       callouts: ['📅 12 PROGRAMS', '🏋️ STRUCTURED TRAINING', '▶️ QUICK START']
     },
     { 
-      src: '/sections/screenshot5.png',
+      src: screenshot5,
       callouts: ['⏱️ LIVE WORKOUT', '💪 SET TRACKING', '📋 PLATE CALCULATOR']
     }
   ];

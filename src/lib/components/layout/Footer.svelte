@@ -45,13 +45,13 @@
       <div>
         <h4 class="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">Community</h4>
         <div class="flex gap-4 mb-6">
-          <a href="#" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
+          <a href="https://github.com/pr0m3theuz/workout-app" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
             <Github size={20} />
           </a>
-          <a href="#" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
+          <a class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
             <Twitter size={20} />
           </a>
-          <a href="#" class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
+          <a class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
             <Disc size={20} />
           </a>
         </div>

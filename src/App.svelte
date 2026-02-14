@@ -1,16 +1,16 @@
 <script lang="ts">
   import { onMount } from 'svelte';
-  import Navbar from './components/layout/Navbar.svelte';
-  import Footer from './components/layout/Footer.svelte';
-  import Hero from './components/sections/Hero.svelte';
-  import Marquee from './components/sections/Marquee.svelte';
-  import Features from './components/sections/Features.svelte';
-  import PowerFeatures from './components/sections/PowerFeatures.svelte';
-  import Ecosystem from './components/sections/Ecosystem.svelte';
-  import Privacy from './components/sections/Privacy.svelte';
-  import AnalyticsShowcase from './components/sections/AnalyticsShowcase.svelte';
-  import FinalCTA from './components/sections/FinalCTA.svelte';
-  import CustomCursor from './components/ui/CustomCursor.svelte';
+  import Navbar from './lib/components/layout/Navbar.svelte';
+  import Footer from './lib/components/layout/Footer.svelte';
+  import Hero from './lib/components/sections/Hero.svelte';
+  import Marquee from './lib/components/sections/Marquee.svelte';
+  import Features from './lib/components/sections/Features.svelte';
+  import PowerFeatures from './lib/components/sections/PowerFeatures.svelte';
+  import Ecosystem from './lib/components/sections/Ecosystem.svelte';
+  import Privacy from './lib/components/sections/Privacy.svelte';
+  import AnalyticsShowcase from './lib/components/sections/AnalyticsShowcase.svelte';
+  import FinalCTA from './lib/components/sections/FinalCTA.svelte';
+  import CustomCursor from './lib/components/ui/CustomCursor.svelte';
 
   let loading = true;
 
