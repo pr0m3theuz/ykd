@@ -12,6 +12,6 @@ services:
       - .:/app
       - /app/deps
       - /app/_build
-    command: mix phx.server
+    # command: mix phx.server
     stdin_open: true
     tty: true
