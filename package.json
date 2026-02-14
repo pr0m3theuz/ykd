@@ -1,0 +1,15 @@
+{
+  "name": "ykd_web_assets",
+  "version": "1.0.0",
+  "description": "Assets for YKD Phoenix LiveView app",
+  "private": true,
+  "scripts": {
+    "deploy": "cd .. && mix assets.deploy && rm -f _build/esbuild*"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.7"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.0"
+  }
+}

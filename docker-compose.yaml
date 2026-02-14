@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "4000:4000"
+    environment:
+      - MIX_ENV=dev
+      - SECRET_KEY_BASE=${SECRET_KEY_BASE:-your_secret_key_base_here}
+    volumes:
+      - .:/app
+      - /app/deps
+      - /app/_build
+    command: mix phx.server
+    stdin_open: true
+    tty: true

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="csrf-token" content={get_csrf_token()} />
+    <title>500 - Internal Server Error · YKD</title>
+    <link phx-track-static rel="stylesheet" href={~p"/assets/app.css"} />
+  </head>
+  <body class="bg-dark-900 text-white">
+    <div class="min-h-screen flex items-center justify-center px-6">
+      <div class="text-center">
+        <h1 class="font-display text-9xl text-lime-400 mb-8">500</h1>
+        <h2 class="font-tech text-3xl text-white uppercase mb-4">Internal Server Error</h2>
+        <p class="font-mono text-neutral-400 mb-8">
+          Something went wrong on our end. We're working on it.
+        </p>
+        <a 
+          href="/" 
+          class="inline-block px-10 py-4 bg-lime-400 text-black font-tech font-bold text-lg uppercase tracking-wide hover:bg-white transition-colors"
+          style="clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);"
+        >
+          Return Home
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
