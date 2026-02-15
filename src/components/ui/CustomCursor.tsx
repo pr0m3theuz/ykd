@@ -3,7 +3,7 @@ import { useEffect, useRef, memo } from 'react';
 const CustomCursor = memo(() => {
   const cursorDotRef = useRef<HTMLDivElement>(null);
   const cursorOutlineRef = useRef<HTMLDivElement>(null);
-  const rafRef = useRef<number>();
+  const rafRef = useRef<number>(0);
 
   useEffect(() => {
     // Skip on touch devices

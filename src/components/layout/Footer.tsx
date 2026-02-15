@@ -31,14 +31,14 @@ const Footer = memo(() => {
           </div>
 
           <div>
-            <h4 class="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">
+            <h4 className="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">
               Product
             </h4>
-            <ul class="space-y-3 font-mono text-sm text-neutral-400">
+            <ul className="space-y-3 font-mono text-sm text-neutral-400">
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/workout-app"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Mobile App
                 </a>
@@ -46,7 +46,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/ykd_workout_app_server"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Sync Server
                 </a>
@@ -54,7 +54,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/ykd_import_programs_kmp"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Import Programs
                 </a>
@@ -62,7 +62,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/ykd_workout_program_pkl_generator"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   PKL Converter
                 </a>
@@ -70,7 +70,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/workout-app/releases"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Releases
                 </a>
@@ -79,14 +79,14 @@ const Footer = memo(() => {
           </div>
 
           <div>
-            <h4 class="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">
+            <h4 className="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">
               Resources
             </h4>
-            <ul class="space-y-3 font-mono text-sm text-neutral-400">
+            <ul className="space-y-3 font-mono text-sm text-neutral-400">
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/workout-app"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Documentation
                 </a>
@@ -94,7 +94,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/workout-app?tab=readme-ov-file#-contributing"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Contributing
                 </a>
@@ -102,7 +102,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/workout-app/issues"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Issues
                 </a>
@@ -110,7 +110,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/workout-app/discussions"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   Discussions
                 </a>
@@ -118,7 +118,7 @@ const Footer = memo(() => {
               <li>
                 <a
                   href="https://github.com/pr0m3theuz/workout-app/blob/ditto-sync/LICENSE"
-                  class="hover:text-lime-400 transition-colors"
+                  className="hover:text-lime-400 transition-colors"
                 >
                   License
                 </a>
@@ -127,25 +127,25 @@ const Footer = memo(() => {
           </div>
 
           <div>
-            <h4 class="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">
+            <h4 className="font-tech font-bold text-lg text-white mb-6 uppercase tracking-wider">
               Community
             </h4>
-            <div class="flex gap-4 mb-6">
+            <div className="flex gap-4 mb-6">
               <a
                 href="https://github.com/pr0m3theuz/workout-app"
-                class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300"
+                className="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300"
               >
                 <Github size={20} />
               </a>
-              <a class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
+              <a className="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
                 <Twitter size={20} />
               </a>
-              <a class="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
+              <a className="w-10 h-10 rounded-full border border-neutral-700 flex items-center justify-center text-neutral-400 hover:text-black hover:bg-lime-400 hover:border-lime-400 transition-all duration-300">
                 <Disc size={20} />
               </a>
             </div>
-            <p class="text-xs text-neutral-600 font-mono flex items-center">
-              Built with <Heart size={15} class="inline text-lime-400 mx-1" />{" "}
+            <p className="text-xs text-neutral-600 font-mono flex items-center">
+              Built with <Heart size={15} className="inline text-lime-400 mx-1" />{" "}
               by pr0m3theuz
             </p>
           </div>

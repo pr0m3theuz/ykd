@@ -9,7 +9,7 @@ export default defineConfig({
     react(),
     tailwindcss(), // Tailwind 4 uses Vite plugin instead of PostCSS
   ],
-  base: '/ykd/',
+  base: 'https://pr0m3theuz.github.io/ykd/',
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),

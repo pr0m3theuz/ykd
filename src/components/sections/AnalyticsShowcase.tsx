@@ -1,5 +1,5 @@
 import React from 'react';
-import { ResponsiveContainer, BarChart, Bar, XAxis, Tooltip, Cell } from 'recharts';
+import { ResponsiveContainer, BarChart, Bar, Cell } from 'recharts';
 import muscle_engagement from '@assets/muscle_engagement.png';
 
 const data = [
@@ -36,7 +36,7 @@ const AnalyticsShowcase: React.FC = () => {
                   <ResponsiveContainer width="100%" height="100%">
                     <BarChart data={data}>
                       <Bar dataKey="volume" radius={[2, 2, 0, 0]}>
-                        {data.map((entry, index) => (
+                        {data.map((_, index) => (
                           <Cell key={`cell-${index}`} fill={index === 4 ? '#CCFF00' : '#333'} />
                         ))}
                       </Bar>
