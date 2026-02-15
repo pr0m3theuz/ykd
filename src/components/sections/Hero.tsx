@@ -81,15 +81,15 @@ const Hero = () => {
               <span className="relative inline-block">
                 Progress.
                 <svg 
-                  className="absolute -bottom-0.5 left-0 w-full h-20 text-lime-400" 
+                  className="absolute top-18 left-0 w-full h-20 text-lime-400"
                   viewBox="0 0 800 200" 
                   preserveAspectRatio="none"
                   aria-hidden="true"
                 >
                   <path 
-                    d="M 10 110 C 800 0 110 200 790 90" 
+                    d="M 10 110 C 800 0 110 200 790 90"
                     stroke="currentColor" 
-                    strokeWidth="20" 
+                    strokeWidth="25"
                     strokeLinecap="round" 
                     fill="none" 
                   />

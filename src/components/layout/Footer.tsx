@@ -145,7 +145,7 @@ const Footer = memo(() => {
               </a>
             </div>
             <p class="text-xs text-neutral-600 font-mono flex items-center">
-              Built with <Heart size={10} class="inline text-lime-400 mx-1" />{" "}
+              Built with <Heart size={15} class="inline text-lime-400 mx-1" />{" "}
               by pr0m3theuz
             </p>
           </div>
