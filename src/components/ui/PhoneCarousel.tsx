@@ -113,7 +113,7 @@ const PhoneCarousel = memo(() => {
         initial={{ y: 50, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{ duration: shouldReduceMotion ? 0 : 1, delay: 0.3 }}
-        className="relative w-[300px] h-[600px] bg-dark-900 rounded-[1.5rem] border-8 border-neutral-800 shadow-2xl overflow-hidden z-20"
+        className="relative w-[360px] h-[800px] bg-dark-900 rounded-[1.5rem] border-8 border-neutral-800 shadow-2xl overflow-hidden z-20"
         role="region"
         aria-label="App screenshots carousel"
       >
