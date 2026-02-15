@@ -90,7 +90,7 @@
   {/key}
 
   <!-- Phone Mockup -->
-  <div class="relative w-[300px] h-[600px] bg-dark-900 rounded-[3rem] border-8 border-neutral-800 shadow-2xl overflow-hidden z-20">
+  <div class="relative w-[360px] h-[800px] bg-dark-900 rounded-[3rem] border-8 border-neutral-800 shadow-2xl overflow-hidden z-20">
     <!-- Notch -->
     <div class="absolute top-0 left-1/2 -translate-x-1/2 w-32 h-6 bg-neutral-800 rounded-b-xl z-30"></div>
     
