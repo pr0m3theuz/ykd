@@ -1,5 +1,10 @@
 import { useState, useEffect, useCallback, memo } from 'react';
 import { motion, AnimatePresence, useReducedMotion } from 'motion/react';
+import screenshot1 from '@assets/screenshot1.png';
+import screenshot2 from '@assets/screenshot2.png';
+import screenshot3 from '@assets/screenshot3.png';
+import screenshot4 from '@assets/screenshot4.png';
+import screenshot5 from '@assets/screenshot5.png';
 
 interface Screenshot {
   src: string;
@@ -9,27 +14,27 @@ interface Screenshot {
 
 const screenshots: Screenshot[] = [
   { 
-    src: '/sections/screenshot1.png',
+    src: screenshot1,
     alt: 'YKD Analytics Dashboard showing 139 workouts and 670+ tons lifted',
     callouts: ['📊 139 WORKOUTS', '💪 670+ TONS LIFTED', '🎯 MUSCLE HEATMAP']
   },
   { 
-    src: '/sections/screenshot2.png',
+    src: screenshot2,
     alt: 'Training frequency and volume trends tracker',
     callouts: ['📈 TRACK CONSISTENCY', '📊 VOLUME TRENDS', '⚡ TRAINING FREQUENCY']
   },
   { 
-    src: '/sections/screenshot3.png',
+    src: screenshot3,
     alt: 'Muscle engagement breakdown with 21.5 sets for traps',
     callouts: ['🎯 MUSCLE ENGAGEMENT', '💪 21.5 SETS TRAPS', '📊 FULL BREAKDOWN']
   },
   { 
-    src: '/sections/screenshot4.png',
+    src: screenshot4,
     alt: 'Program library with 12 structured training programs',
     callouts: ['📅 12 PROGRAMS', '🏋️ STRUCTURED TRAINING', '▶️ QUICK START']
   },
   { 
-    src: '/sections/screenshot5.png',
+    src: screenshot5,
     alt: 'Live workout tracking with plate calculator',
     callouts: ['⏱️ LIVE WORKOUT', '💪 SET TRACKING', '📋 PLATE CALCULATOR']
   }
